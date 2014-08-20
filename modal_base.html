@@ -1,0 +1,10 @@
+<template name="modal_base">
+  <div id="modal_base">
+    {{#each modalList}}
+    {{> modal_item}}
+    {{/each}}
+  </div>
+</template>
+<template name="modal_item">
+  {{> dynamicTemplate}}
+</template>
