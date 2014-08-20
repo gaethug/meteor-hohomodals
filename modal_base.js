@@ -12,6 +12,6 @@ Template.modal_base.helpers({
 });
 Template.modal_item.helpers({
   dynamicTemplate: function() {
-    return Template[this.type+"_modal"];
+    return Template[this.modalName+"_modal"];
   }
 });
