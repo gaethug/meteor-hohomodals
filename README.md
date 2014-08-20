@@ -1,7 +1,7 @@
 meteor-hohomodals
 =================
 
-This is to manage bootstrap3 modal.
+This package is to manage bootstrap3 modal.
 
 requred bootstrap3
 
